@@ -8,7 +8,7 @@ public class comandosdedecisao {
         int faltas = 15;
         int maxFaltas = 12;
         System.out.println("Resultado final: " + resultadofinal + " quantidade de faltas: " + faltas);
-        if(resultadofinal >= 65){
+        if(resultadofinal >= 65  && faltas < maxFaltas){
             System.out.println("Aprovado!");
         }else if(resultadofinal >=40){
             System.out.println("Recuperacao");
